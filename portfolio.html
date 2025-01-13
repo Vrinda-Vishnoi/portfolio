@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vrinda's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/sf-pro-display">
+</head>
+
+<body>
+    <div class="noise"></div>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#contact" class="nav-link">Contact Me</a>
+                    <div class="dropdown-content">
+                        <a href="mailto:vrindavishnoi2003@gmail.com"><i class="fas fa-envelope"></i> Gmail</a>
+                        <a href="https://www.linkedin.com/in/vrinda-vishnoi-5221a3226/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/Vrinda-Vishnoi"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </li>
+            </ul>
+            <button class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="leftSection">
+                <div class="text-content">
+                    <h1 class="gradient-text">Hi, I'm <span class="highlight">Vrinda</span></h1>
+                    <h2 class="typewriter">I am a <span id="element"></span></h2>
+                    <p class="hero-description">Passionate about creating innovative solutions through code</p>
+                    <div class="button-container">
+                        <a href="resume.pdf" download class="btn">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                        <a href="https://github.com/Vrinda-Vishnoi" target="_blank" class="btn secondary-btn">
+                            <i class="fab fa-github"></i>
+                            Visit GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSection">
+                <div class="hero-image-container">
+                    <img src="devell.png" alt="Developer Illustration" class="floating">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <div class="profile-container">
+                    <div class="profile-wrapper">
+                        <img src="./profile_pic.jpg" alt="Profile Picture" class="profile-pic">
+                        <div class="profile-ring"></div>
+                    </div>
+                </div>
+                <div class="chat-container">
+                    <div class="chat-bubble">
+                        <div class="typing-indicator">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="chat-text">
+                            <p class="greeting">Hi there! 👋</p>
+                            <p class="about-text">I'm Vrinda Vishnoi, a passionate software developer with a love for creating elegant solutions to complex problems. Currently pursuing my B.Tech in Computer Science, I specialize in full-stack development and have a keen interest in AI/ML.</p>
+                            <p class="about-text">My journey in tech has been driven by curiosity and a desire to build meaningful applications that make a difference. When I'm not coding, you can find me exploring new technologies or contributing to open-source projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <h2 class="section-title">Experience Timeline</h2>
+            <div class="timeline-container">
+                <div class="center-line"></div>
+                
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="timeline-content glass">
+                        <h3>Data Science Intern</h3>
+                        <h4>Devtern</h4>
+                        <p class="date">Feb 2024 - Apr 2024 (3 months)</p>
+                        <p>Utilized Python for data analysis, building machine learning models, and developing data pipelines for large datasets. Created visualizations using Matplotlib and Seaborn to convey insights. Collaborated with cross-functional teams to implement data-driven solutions, documented reproducible code, and applied continuous learning to stay current with data science and machine learning advancements.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right" data-aos="fade-left">
+                    <div class="timeline-content glass">
+                        <h3>Marketing Intern</h3>
+                        <h4>Viral Fission</h4>
+                        <p class="date">Oct 2021 - Ongoing</p>
+                        <p>As a Team Lead at Viral Fission, I supervised and mentored interns and junior developers by allocating tasks, monitoring project deliverables, and ensuring alignment with timelines and objectives. I managed project plans, which included sprint planning, resource allocation, and risk assessment. Additionally, I prioritized team development through performance evaluations, mentorship, and skill-building initiatives. This role enhanced my leadership acumen and strategic project management proficiency.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card glass">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-robot project-icon"></i>
+                            <h3>ConvoConnect</h3>
+                            <span class="project-date">Apr 2024 - Present</span>
+                        </div>
+                        <p>Bridging Conversations Through AI - A recruitment automation system utilizing AI and NLP to streamline hiring processes through automated resume shortlisting, AI-driven virtual interviews, and sentiment analysis. Features a robust rating system for assessing qualifications, skills, and cultural fit.</p>
+                        <div class="project-tech">
+                            <span>Spacy3</span>
+                            <span>NLP</span>
+                            <span>MySQL</span>
+                            <span>FastAPI</span>
+                            <span>React</span>
+                            <span>OpenAI</span>
+                            <span>DeepFace</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-book project-icon"></i>
+                            <h3>Apiary</h3>
+                        </div>
+                        <p>A structured library streamlining access to over 500 APIs and modules, enhancing learning efficiency for 300+ CS students with real-time documentation updates on modern technologies.</p>
+                        <div class="project-tech">
+                            <span>Documentation</span>
+                            <span>APIs</span>
+                            <span>Education</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://apiary-com.vercel.app/" target="_blank" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-certificate project-icon"></i>
+                            <h3>CertiTrust</h3>
+                            <span class="project-date">Jul 2023 - Jan 2024</span>
+                        </div>
+                        <p>A blockchain-based system for secure certificate management, addressing challenges in digital credential verification. Offers transparent issuance, storage, and validation while reducing fraud and enhancing trust in credential management.</p>
+                        <div class="project-tech">
+                            <span>Blockchain</span>
+                            <span>Security</span>
+                            <span>Verification</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="glass-footer">
+        <div class="footer">
+            <div class="footer-content">
+                <h3>Let's Connect</h3>
+                <div class="social-links">
+                    <a href="mailto:vrindavishnoi2003@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/vrinda-vishnoi-5221a3226/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Vrinda-Vishnoi" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                <p class="copyright"> 2023 Vrinda Vishnoi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
